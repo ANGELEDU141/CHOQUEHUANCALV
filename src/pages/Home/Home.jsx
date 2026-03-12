@@ -71,7 +71,7 @@ export default function Home() {
             <div className={styles.heroVisual}>
               <div className={styles.heroImage} aria-hidden="true" />
               <div className={styles.heroCard}>
-                <h3>Tu ropa, como nueva</h3>
+                <h2>Tu ropa, como nueva</h2>
                 <p>
                   Separacion por color, tratamiento delicado y entrega puntual
                   en Santa Anita y La Molina.
