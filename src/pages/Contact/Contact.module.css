@@ -1,0 +1,117 @@
+.page {
+  background: #f6fbf8;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero {
+  background: #ffffff;
+  padding: 80px 0 60px;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
+  align-items: center;
+}
+
+.eyebrow {
+  color: #1383e6;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.hero h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2.1rem, 3.4vw, 3rem);
+}
+
+.lead {
+  color: #56646a;
+  line-height: 1.7;
+}
+
+.heroPanel {
+  background: #f0f7ff;
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 16px 32px rgba(15, 28, 26, 0.08);
+  display: grid;
+  gap: 10px;
+}
+
+.heroPanel h3 {
+  margin: 0 0 6px;
+}
+
+.heroPanel p {
+  margin: 0;
+  color: #56646a;
+}
+
+.ctaButton {
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #25d366;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 12px 20px;
+  font-weight: 700;
+}
+
+.locations {
+  padding: 70px 0 90px;
+}
+
+.sectionHeader {
+  margin-bottom: 26px;
+}
+
+.sectionHeader h2 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.sectionHeader p {
+  margin: 0;
+  color: #56646a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(15, 28, 26, 0.08);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+}
+
+.card p {
+  margin: 0;
+  color: #56646a;
+}
+
+@media (max-width: 900px) {
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+}
